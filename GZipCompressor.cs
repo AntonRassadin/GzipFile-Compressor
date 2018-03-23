@@ -34,7 +34,7 @@ namespace FileCompressor
             {
                 return;
             }
-            //вместо коллекций можно использовать структуры данных чтобы облегчить работу GC
+            //вместо коллекций можно использовать массивы чтобы облегчить работу GC
             Queue<DataBlock> readDataBuffer = new Queue<DataBlock>();//входная очередь
             List<DataBlock> compressedDataBuffer = new List<DataBlock>();//выходная очередь
 
@@ -234,7 +234,7 @@ namespace FileCompressor
                 return;
             }
 
-            //вместо коллекций можно использовать структуры данных чтобы облегчить работу GC
+            //вместо коллекций можно использовать массивы чтобы облегчить работу GC
             Queue<DataBlock> readDataBuffer = new Queue<DataBlock>();//входная очередь
             List<DataBlock> decompressedDataBuffer = new List<DataBlock>();//выходная очередь
 
